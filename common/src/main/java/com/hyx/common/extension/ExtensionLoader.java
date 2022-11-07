@@ -1,4 +1,4 @@
-package extension;
+package com.hyx.common.extension;
 
 import java.io.BufferedReader;
 import java.io.IOException;

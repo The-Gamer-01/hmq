@@ -1,4 +1,4 @@
-package extension;
+package com.hyx.common.extension;
 
 import lombok.Data;
 
