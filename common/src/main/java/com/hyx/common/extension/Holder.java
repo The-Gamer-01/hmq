@@ -10,15 +10,13 @@ import lombok.Data;
 
 @Data
 public class Holder<T> {
-    
-    /**
-     * 持有实例.
-     */
     private volatile T value;
     
-    public Holder() {}
+    public void set(T value) {
+        this.value = value;
+    }
     
-    public Holder(T val) {
-        this.value = val;
+    public T get() {
+        return value;
     }
 }
